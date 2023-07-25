@@ -1,0 +1,89 @@
+@use './partials/variables' as *;
+
+// BOOTSTRAP:
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// FONT:
+
+@import '../../node_modules/@fontsource-variable/montserrat/index.css';
+@import '../../node_modules/@fontsource-variable/montserrat';
+
+// GENERAL
+
+    body {
+        font-family: $main-font;
+        color: $color-text;
+        background-color: $bg-color-W;
+        font-weight: lighter;
+    }
+
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    ul.orizontal {
+        display: flex;
+        gap: 30px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    section a {
+        color: rgb(16, 113, 163);
+    }
+
+    .green {
+        color: green;
+    }
+
+    .section-title {
+        position: relative;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+
+        
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 10%;
+            height: 2px;
+            background-color: $color-primary;
+
+        }
+    }
+
+// BUTTONS: 
+
+    button {
+        text-transform: uppercase;
+        border: none;
+        padding: 10px 15px;
+        font-size: .75rem;
+        font-weight: lighter;
+
+        &.yellow,
+        &.gray:hover {
+            background-color: $color-primary;
+            color: $color-secondary;
+        }
+
+        &.gray,
+        &.yellow:hover {
+            background-color: $color-secondary;
+            color: white;
+        }
+
+        &.big {
+            font-size: .875rem;
+            padding: 10px 20px;
+        }
+    }
