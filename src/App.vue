@@ -4,15 +4,16 @@
 
   import HeaderComponent from './components/HeaderComponent.vue';
   import HeroComponent from './components/HeroComponent.vue';
-  import FooterComponent from './components/FooterComponent.vue';
   import MainComponent from './components/MainComponent.vue';
+  import FooterComponent from './components/FooterComponent.vue';
+  
 
   export default {
     components:{
       HeaderComponent,
       HeroComponent,
-      FooterComponent,
-      MainComponent
+      MainComponent,
+      FooterComponent
     },
 
     data() {
@@ -22,21 +23,33 @@
     },
 
   }
-  
+
 </script>
 
 <template>
 
   <div>
-    
-    <HeaderComponent />
 
-    <HeroComponent />
+    <header>
 
-    <MainComponent />
+      <HeaderComponent />
 
-    <FooterComponent />
-    
+    </header>
+
+    <main>
+
+      <HeroComponent />
+
+      <MainComponent />
+
+    </main>
+
+    <footer>
+
+      <FooterComponent />
+
+    </footer>
+
   </div>
 
 </template>

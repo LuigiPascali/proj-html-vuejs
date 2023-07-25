@@ -78,9 +78,9 @@
 
     .jumbotron{
         position: relative;
-        color: white;
         height: 500px;
         width: 100%;
+        color: white;
         background-image: url('../assets/images/home-slider-62528242.jpg');
         background-size: cover;
 
@@ -89,10 +89,10 @@
             top: 20px;
             right: 20px;
             .square{
-                cursor: pointer;
-                padding: 5px;
                 height: 50px;
                 width: 50px;
+                padding: 5px;
+                cursor: pointer;
                 border-radius: 5px;
                 margin-bottom: 5px;
                 background-color: #fff;

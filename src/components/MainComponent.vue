@@ -1,13 +1,21 @@
 <script>
 
-    import Navbar from './Navbar.vue';
+    import CardsSection from './CardsSection.vue';
+    import ParallaxSection from './ParallaxSection.vue';
+    import RecentWorkSection from './RecentWorkSection.vue';
+    import CoreSection from './CoreSection.vue';
+    import OwnerSection from './OwnerSection.vue';
 
     export default {
 
-        name: 'HeaderComponent',
+        name: 'MainComponent',
 
         components: {
-            Navbar,
+            CardsSection,
+            ParallaxSection,
+            RecentWorkSection,
+            CoreSection,
+            OwnerSection,
         },
     }
 
@@ -15,21 +23,15 @@
 
 <template>
 
-  <header>
+    <CardsSection />
+
+    <ParallaxSection />
+
+    <RecentWorkSection />
+
+    <CoreSection />
     
-    <div class="container d-flex justify-content-between align-items-center">
-
-        <div class="logo">
-            <img src="../assets/img/construction_logo.png" alt="logo" class="img-fluid">
-        </div>
-
-        <div class="menu">
-            <Navbar />
-        </div>
-
-    </div>
-
-  </header>
+    <OwnerSection />
 
 </template>
 
@@ -37,15 +39,5 @@
 
     @use '../scss/main.scss' as *;
     @use '../scss/partials/variables' as *;
-
-    header{
-    height: $h-header;
-        .container{
-            height: 100%;
-            .logo{
-            width: 150px;
-            }
-        }
-    }
 
 </style>

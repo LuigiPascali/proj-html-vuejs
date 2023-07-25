@@ -7,14 +7,14 @@ AVEDA CONSTRUCTION SITE PROJECT:
 2. HeroComponent.vue => Store.js (prendo i dati); DONE!
 
 3. MainComponent.vue:
-    3.1 = CardsSection.vue:
-        3.1.1 = SingleCard.vue => Store.js (prendo i dati);
-    3.2 = ParallaxSection.vue:
-        3.2.1 = SingleCard.vue => Store.js (prendo i dati);
-    3.3 = RecentWorkSection.vue;
-    3.4 = CoreSection.vue:
-        3.4.1 = SingleCard.vue => Store.js (prendo i dati);
-    3.5 = OwnerSection.vue => Store.js (prendo i dati);
+    3.1 = CardsSection.vue: DONE!
+        3.1.1 = SingleCard.vue => Store.js (prendo i dati); DONE!
+    3.2 = ParallaxSection.vue: DONE!
+        3.2.1 = SingleCard.vue => Store.js (prendo i dati); DONE!
+    3.3 = RecentWorkSection.vue; DONE!
+    3.4 = CoreSection.vue: DONE!
+        3.4.1 = SingleCard.vue => Store.js (prendo i dati);DONE!
+    3.5 = OwnerSection.vue => Store.js (prendo i dati);DONE!
     3.6 = NewsSection.vue;
     3.7 = PartnersSection.vue;
     3.8 = BuildingSection.vue;

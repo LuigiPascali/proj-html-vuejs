@@ -1,0 +1,151 @@
+@use '../main.scss' as *;
+@use './variables' as *;
+
+// GENERAL: 
+
+    .my_card {
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 10px 10px 5px #dedede;
+        }
+    }
+
+// CARDS SECTION:
+
+    #cards {
+        .my_card {
+            margin: 0 15px;
+            margin-bottom: 10px;
+            padding: 20px 30px;
+            background-color: rgb(245, 245, 245);
+            border-radius: 15px;
+            color: rgb(117, 117, 117);
+
+            .image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50px;
+                width: 50px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                border-radius: 50%;
+                border: 1px solid rgb(117, 117, 117);
+                font-size: 1.375rem;
+            }
+
+            h5 {
+                font-size: 1.875rem;
+                font-weight: lighter;
+            }
+
+            p {
+                font-size: .75rem;
+                line-height: 180%;
+            }
+        }
+    }
+
+// PARALLAX SECTION:
+
+    #parallax {
+
+        .my_card {
+            color: $color-primary;
+            text-align: center;
+
+            &:hover {
+                box-shadow: none;
+                color: white;
+            }
+
+            .image {
+                font-size: 3.4375rem;
+            }
+
+            h5 {
+                font-size: 3.125rem;
+                font-weight: lighter;
+            }
+
+            p {
+                font-size: 1rem;
+                color: white;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+    }
+
+// CORE SECTION:
+
+    #core {
+        .my_card:nth-child(1) .image {
+            background-color: $color-S1;
+        }
+
+        .my_card:nth-child(2) .image {
+            background-color: $color-S2;
+        }
+
+        .my_card:nth-child(3) .image {
+            background-color: $color-S3;
+        }
+
+        .my_card:nth-child(4) .image {
+            background-color: $color-S4;
+        }
+
+        .my_card {
+            max-width: 200px;
+
+            &:hover {
+                box-shadow: none;
+                color: $color-primary;
+            }
+
+            .image {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100px;
+                width: 100px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                border-radius: 50%;
+                background-color: aqua;
+                color: white;
+                font-size: 2.5rem;
+            }
+
+            h5 {
+                position: relative;
+                margin: 0 auto;
+                text-align: center;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+                font-size: 1rem;
+                font-weight: lighter;
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    bottom: 0;
+                    left: 50%;
+                    width: 15%;
+                    height: 2px;
+                    transform: translateX(-50%);
+                    background-color: rgb(134, 134, 134);
+                }
+            }
+
+            p {
+
+                font-size: .75rem;
+                line-height: 180%;
+            }
+        }
+    }
+
+
