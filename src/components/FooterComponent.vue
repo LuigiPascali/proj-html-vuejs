@@ -1,13 +1,13 @@
 <script>
 
-    import Navbar from './Navbar.vue';
+    import TweetSection from './TweetSection.vue';
 
     export default {
 
-        name: 'HeaderComponent',
+        name: 'FooterComponent',
 
         components: {
-            Navbar,
+            TweetSection,
         },
     }
 
@@ -15,21 +15,37 @@
 
 <template>
 
-  <header>
-    
-    <div class="container d-flex justify-content-between align-items-center">
+    <footer>
 
-        <div class="logo">
-            <img src="../assets/img/construction_logo.png" alt="logo" class="img-fluid">
+        <div class="container d-flex justify-content-beetween">
+
+            <section id="learn_more">
+
+                <div class="logo_container">
+
+                    <img class="img-fluid" src="../assets/images/footer-logo.png" alt="footer_logo">
+
+                </div>
+
+                <p>
+                    We are specialists in the construction of unique and exclusive properties. Our works inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.
+                </p>
+
+                <button type="button" class="yellow">
+                    Learn More
+                </button>
+
+            </section>
+
+
+
+            <TweetSection />
+
         </div>
 
-        <div class="menu">
-            <Navbar />
-        </div>
+        
 
-    </div>
-
-  </header>
+    </footer>
 
 </template>
 
@@ -38,14 +54,32 @@
     @use '../scss/main.scss' as *;
     @use '../scss/partials/variables' as *;
 
-    header{
-    height: $h-header;
-        .container{
-            height: 100%;
-            .logo{
-            width: 150px;
+    footer {
+        padding-top: 50px;
+        border-top: 20px solid rgb(63, 63, 63);
+        background-color: $color-secondary;
+
+        .container {
+            section {
+                width: calc((100% / 4) - 30px);
             }
         }
+
+        #learn_more {
+            color: gray;
+            font-size: .875rem;
+
+            .logo {
+                width: 60%;
+                margin-bottom: 20px;
+            }
+        }
+
+        .map{
+            cursor: pointer;
+        }
+
     }
 
+    
 </style>
