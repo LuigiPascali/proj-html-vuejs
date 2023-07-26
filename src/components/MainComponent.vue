@@ -7,6 +7,7 @@
     import OwnerSection from './OwnerSection.vue';
     import NewsSection from './NewsSection.vue';
     import PartnersSection from './PartnersSection.vue';
+    import BuildingSection from './BuildingSection.vue';
 
     export default {
 
@@ -20,6 +21,7 @@
             OwnerSection,
             NewsSection,
             PartnersSection,
+            BuildingSection
         },
     }
 
@@ -40,6 +42,8 @@
     <NewsSection />
 
     <PartnersSection />
+
+    <BuildingSection />
 
 </template>
 
