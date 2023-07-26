@@ -25,7 +25,7 @@
 
     <section id="news">
     
-        <h5 class="section-title mt-5 mb-5">
+        <h5 class="section-title mb-5">
             Latest News
         </h5>
 

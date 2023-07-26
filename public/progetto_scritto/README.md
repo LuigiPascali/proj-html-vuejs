@@ -20,6 +20,6 @@ AVEDA CONSTRUCTION SITE PROJECT:
     3.8 = BuildingSection.vue; DONE!
 
 4. FooterComponent.vue:
-    4.1 = TweetSection => Store.js (prendo i dati);
-    4.2 = ContactsSection => Store.js (prendo i dati):
-        4.2.1 = Contact.vue
+    4.1 = TweetSection => Store.js (prendo i dati); DONE!
+    4.2 = ContactsSection => Store.js (prendo i dati): DONE!
+        4.2.1 = Contact.vue DONE!
