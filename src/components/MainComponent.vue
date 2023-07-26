@@ -5,6 +5,7 @@
     import RecentWorkSection from './RecentWorkSection.vue';
     import CoreSection from './CoreSection.vue';
     import OwnerSection from './OwnerSection.vue';
+    import NewsSection from './NewsSection.vue';
 
     export default {
 
@@ -16,6 +17,7 @@
             RecentWorkSection,
             CoreSection,
             OwnerSection,
+            NewsSection,
         },
     }
 
@@ -30,8 +32,10 @@
     <RecentWorkSection />
 
     <CoreSection />
-    
+   
     <OwnerSection />
+
+    <NewsSection />
 
 </template>
 

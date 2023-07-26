@@ -100,19 +100,19 @@ export const store = reactive(
 
         news: [
             {
-                foto: '<img src="../../public/blog-post-134132600-400x241.jpg" alt="news">',
+                foto: '<img src="../src/assets/images/blog-post-134132600-400x241.jpg" alt="news">',
                 title: "Redeveloping Florida's Remote Southern Coast",
                 data: 'December 7th, 2015',
                 content: 'Quisquam dicta totam eos. Necessiticta totam eosatibicta totam eoss culpa earum optio ab et expliicta totam eoscabo aliquam odiicta totam eoso ducimus dolore voluptatem.'
             },
             {
-                foto: '<img src="../../public/blog-post-92486644-400x241.jpg" alt="news">',
+                foto: '<img src="../src/assets/images/blog-post-92486644-400x241.jpg" alt="news">',
                 title: "How We Manage Large Construction Projects",
                 data: 'December 7th, 2015',
                 content: 'Quisquam dicta totam eoicta totam eoss. Necicta totam eosessitaicta totam eostibicta totam eosus culpa earum optio ab et explicabo aliicta totam eosquam odio ducimus dolore voluptatem.'
             },
             {
-                foto: '<img src="../../public/blog-post-332773904-400x241.jpg" alt="news">',
+                foto: '<img src="../src/assets/images/blog-post-332773904-400x241.jpg" alt="news">',
                 title: "Future proofing a modern home",
                 data: 'December 6th, 2015',
                 content: 'Quisquam dicta totam eos. Necessitaticta totam eosibus cicta totam eosulpa earum optio ab et expliicta totam eoscabo aliquicta totam eosam odio ducimus dolore voluptatem.'

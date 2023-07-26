@@ -18,15 +18,15 @@
 
         <div class="image" v-html="card.foto"></div>
 
-        <h5>
-            {{ card.title }}
+        <h5 class="mt-3 mb-3">
+           {{ card.title }}
         </h5>
 
-        <small v-if="card.data">
+        <small class="mb-3" v-if="card.data">
             {{ card.data }}
         </small>
 
-        <p>
+        <p class="mt-3">
             {{ card.content }}
         </p>
 
