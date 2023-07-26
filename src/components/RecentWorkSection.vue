@@ -21,7 +21,6 @@
         <p class="subtitle">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et dignissimos dolorum iste nemo obcaecati impedit ad voluptatibus, doloremque consequuntur suscipit nesciunt eaque aliquam quam.
         </p>
-  
       
         <div class="work_foto d-flex justify-content-center gap-4">
 
@@ -36,9 +35,11 @@
             </div>
         
         </div>
-  
-        <span class="wiew_projects mt-3">VIEW ALL PROJECTS</span>
-      
+
+        <div class="divider">
+            <span class="wiew_projects mt-3">VIEW ALL PROJECTS</span>
+        </div>
+
     </section>
 
 </template>

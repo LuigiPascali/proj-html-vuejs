@@ -60,6 +60,31 @@
         }
     }
 
+    .divider {
+        position: relative;
+
+            &::before,
+            &::after{
+                content: "";
+                position: absolute;
+                bottom: 50%;
+                height: 2px;
+                width: 30%;
+                background-color: rgb(161, 161, 161);
+                
+            }
+
+            &::before{
+                left: 2.5%;
+            }
+
+            &::after{
+                right: 2.5%;
+            }
+    }
+
+
+
 // BUTTONS: 
 
     button {

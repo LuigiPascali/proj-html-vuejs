@@ -22,11 +22,11 @@
            {{ card.title }}
         </h5>
 
-        <small class="mb-3" v-if="card.data">
+        <small v-if="card.data">
             {{ card.data }}
         </small>
 
-        <p class="mt-3">
+        <p class="mt-3 mb-3">
             {{ card.content }}
         </p>
 

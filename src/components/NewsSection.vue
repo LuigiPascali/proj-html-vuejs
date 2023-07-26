@@ -4,6 +4,7 @@
     import SingleCard from './SingleCard.vue';
 
     export default {
+
         name: 'NewsSection',
 
         components: {
@@ -40,7 +41,9 @@
 
         </div>
 
-        <span>VIEW ALL ARTICLES</span>
+        <div class="divider">
+            <span>VIEW ALL ARTICLES</span>
+        </div>
 
     </section>
 
@@ -56,12 +59,7 @@
     padding-bottom: 100px;
     background-color: #F5F5F5;
     
-        .my_card:first-child, .my_card:last-child{
-            border-bottom: 2px solid white;
-        }
-
         span{
-
             color: rgb(154, 154, 154);
             cursor: pointer;
 

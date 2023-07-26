@@ -15,7 +15,7 @@ AVEDA CONSTRUCTION SITE PROJECT:
     3.4 = CoreSection.vue: DONE!
         3.4.1 = SingleCard.vue => Store.js (prendo i dati);DONE!
     3.5 = OwnerSection.vue => Store.js (prendo i dati);DONE!
-    3.6 = NewsSection.vue;
+    3.6 = NewsSection.vue; DONE!
     3.7 = PartnersSection.vue;
     3.8 = BuildingSection.vue;
 
